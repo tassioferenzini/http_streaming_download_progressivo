@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="js/video.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="estilo/estilo.css">
+    </head>
+    <body   onload="javascript:carregar()">
+        <div>
+            <h3>2 vídeos sobrepostos c/ download progessivo</h3>
+            <video id="Video1" onclick="javascript:inverter2()">
+                <source src="videos/Tropa de Elite - Trailer - YouTube [720p].webm" type="video/webm" />
+
+            </video>
+
+            <video id="Video2" muted onclick="javascript:inverter1()">
+                <source src="videos/TROPA DE ELITE 2 - Trailer HD - YouTube [720p].webm" type="video/webm" />
+
+            </video>
+            <div id="inf">
+                <span id="inf1"></span><br>
+                <span id="inf2"></span><br>
+                <span id="inf3"></span><br>
+                <span id="inf4"></span><br>
+                <span id="inf5"></span><br>
+                <span id="inf6"></span><br>
+                <span id="inf7"></span><br>
+                <span id="inf8"></span><br>
+                <span id="inf9"></span><br>
+            </div>
+            <div id="controlevideo">
+                <button id="play" onclick="javascript:play();">Play</button>
+                <!--button id="replay" onclick="javascript:mudo();">Mudo</button-->
+                <span id="timeDisplay"></span>
+            </div>
+
+        </div>
+    </body>
+</html>

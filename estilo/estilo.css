@@ -1,0 +1,54 @@
+/*
+    Document   : estilo
+    Created on : 18/08/2013, 09:19:34
+    Author     : tassio
+    Description:
+        Purpose of the stylesheet follows.
+*/
+h3
+{
+    position:absolute;
+    top: -10px;
+    left:10px;
+    width: 1000px;
+    height: 20px;
+    border:0px solid blue;
+    display:block;
+    text-align: center;
+}
+
+#Video1
+{
+    position:absolute;
+    top: 40px;
+    left:10px;
+    width:1000px;
+    border:0px solid blue;
+    display:block;
+}
+
+#Video2
+{
+    position:absolute;
+    top:50px;
+    left:60px;
+    width:300px;
+    border:0px solid red;
+    z-index: 100;
+}
+
+#controlevideo
+{
+    position:absolute;
+    top:30px;
+    left:1050px;
+}
+
+#inf
+{
+    position:absolute;
+    top:80px;
+    left:1050px;
+    border:0px solid red;
+    z-index: 100;
+}
